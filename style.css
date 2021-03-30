@@ -84,7 +84,7 @@ h3{
     height: 100%;
 }
 .home-section-content h1{
-    margin: 30px 0 50px;
+    margin: 30px 15% 50px;
 }
 .navbar{
     position: absolute;
@@ -103,4 +103,95 @@ h3{
     line-height: 20px;
     color: #FFFFFF;
     padding: 0 20px 0;
+}
+
+/* mobil App section */
+
+h2 {
+    font-family: 'Montserrat Bold';
+    padding: 110px 15% 50px;
+    margin: 0;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
+
+.mobile-app-section h2{
+
+}
+.mobile-app-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-mobile-app {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin: 0 15%;
+    padding-bottom: 70px;
+}
+
+.list-mobile-apps {
+    display: flex;
+    padding-bottom: 55px;
+}
+
+.list-mobile-apps-items{
+    display: flex;
+    justify-content: center;
+}
+
+.external_circle{
+    margin: 0;
+    opacity: 1;
+    padding: 10px;
+    width: 110px;
+    height: 110px;
+    /* left: 405px;
+    top: 1259px; */
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+}
+
+.internal_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 90px;
+    height: 90px;
+    /* left: 415px;
+    top: 1269px; */
+    border-radius: 50%;
+    border: 1px solid #4985FF;
+    box-sizing: border-box;
+}
+.internal_circle img{
+    height: 40px;
+    width: 40px;
+}
+
+.mobile-app-section .primary-button{
+    margin-bottom: 105px;
+}
+
+.list-mobile-apps .item-name{
+    font-family: 'Montserrat Bold';
+    padding: 45px 27px 12px 17px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.list-mobile-apps .item-text{
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding: 0 27px 0 17px;
 }
