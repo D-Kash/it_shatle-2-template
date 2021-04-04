@@ -375,11 +375,68 @@ h2 {
     width: 100%;
 }
 
-.our-projects, .container button{
+.our-projects button{
     margin: 50px 0 130px;
 }
 
+
+/* Video about our work */
+
+.video-about-our-work {
+    background-image: url(./assets/img/background-video-section.png);
+    background-repeat: no-repeat;
+}
+
+.video-about-our-work h2 {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 70px 0 30px;
+}
+
+.video-about-our-work span{
+    color: #FFFFFF;
+}
+
+.video-about-our-work-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.video-about-our-work-clip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 85px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.video-about-our-work-clip-image {
+    width: 100%;
+}
+
+.play-video-buttom {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 200px;
+}
+
+.play-video-buttom img {
+    padding: 20px 20px 20px 40px;
+}
+
+.play-video-buttom-text {
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
 /* subscription section */
+
 .subscription-section {
     text-align: center;
     padding: 85px 0;
@@ -432,6 +489,8 @@ h2 {
     border-radius: 0 30px 30px 0;
     flex: 1;
 }
+
+
 
 @media (max-width: 900px) {
     h1 {
