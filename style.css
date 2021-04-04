@@ -490,7 +490,47 @@ h2 {
     flex: 1;
 }
 
+/* footer */
 
+footer {
+    background: #F6F6F8;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.content h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-align: start;
+}
+
+.content ul{
+    padding-left: 20px;
+    margin: 35px 0 0;
+    line-height: 30px;
+    list-style-image: url(./assets/img/Vector.png);
+}
+.contact-information ul li:nth-child(1){
+    list-style-image: url(./assets/img/mail.png);
+}
+.contact-information ul li:nth-child(2){
+    list-style-image: url(./assets/img/phone.png);
+}
+.contact-information ul li:nth-child(3){
+    list-style-image: url(./assets/img/placeholder.png);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
 
 @media (max-width: 900px) {
     h1 {
