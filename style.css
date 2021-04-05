@@ -88,7 +88,7 @@ span {
     justify-content: center;
     height: 100%;
 }
-.home-section-content h1{
+.home-section-content, h1{
     margin: 30px 15% 50px;
 }
 .navbar{
@@ -128,14 +128,10 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-
 .about-mobile-app {
-    font-size: 16px;
-    line-height: 25px;
     text-align: center;
-    color: #999999;
-    margin: 0 15%;
     padding-bottom: 70px;
+    margin: 0 15%;
 }
 
 .list-mobile-apps {
@@ -299,8 +295,6 @@ h2 {
 }
 
 .our-works-title h2{
-    font-size: 36px;
-    line-height: 53px;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -340,7 +334,6 @@ h2 {
 }
 
 .our-works-item a{
-    font-size: 16px;
     line-height: 20px;
     text-decoration-line: underline;
     color: #4985FF;
@@ -533,10 +526,28 @@ footer {
 }
 
 @media (max-width: 900px) {
+    
     h1 {
         font-size: 24px;
         line-height: 32px;
     }
+
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    span {
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .list-mobile-apps {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 55px;
+    }
+
     .our-works-content{
         flex-wrap: wrap;
     }
@@ -544,10 +555,73 @@ footer {
         width: 47%;
         margin-bottom: 10px;
     }
+
+    .external_circle{
+        padding: 5px;
+        width: 55px;
+        height: 55px;
+    }
+    
+    .internal_circle{
+        width: 45px;
+        height: 45px;
+    }
+    .internal_circle img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .list-mobile-apps .item-name{
+        padding: 22px 14px 6px 8px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .list-mobile-apps .item-text{
+        font-size: 7px;
+        line-height: 11px;
+        padding: 0 14px 0 13px;
+    }
+    .our-works-item p{
+        font-size: 8px;
+        line-height: 12px;
+        color: #999999;
+    }
+    .our-works-item h5{
+        font-family: 'Motserrat Bold';
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    a {
+        font-size: 8px;
+    }
+    .content h3 {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .content ul{
+        padding-left: 10x;
+        margin: 17px 0 0;
+        line-height: 15px;
+        font-size: 10px;
+    }
+    
+    .copyright {
+        font-size: 10px;
+        padding: 15px 0;
+
 }
 
 @media(max-width: 600px) {
     .our-works-item {
         width: 100%;
+    }
+
+    .development-standart-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
