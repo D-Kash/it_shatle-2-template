@@ -378,6 +378,7 @@ h2 {
 .video-about-our-work {
     background-image: url(./assets/img/background-video-section.png);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .video-about-our-work h2 {
